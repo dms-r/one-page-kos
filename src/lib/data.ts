@@ -19,14 +19,14 @@ export const data = {
   hero: {
     title: "Your Comfort, Our Priority",
     subtitle: "Discover a clean, quiet, and convenient place to call home. Perfect for students and professionals.",
-    imageUrl: "https://placehold.co/1920x1080.png",
+    imageUrl: "https://unsplash.com/photos/3Oo6qQMmycg/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Nnx8Ym9hcmRpbmclMjBob3VzZXxlbnwwfHx8fDE3NTA4NTkyNjh8MA&force=true&w=1920",
     imageAlt: "A cozy and modern living room space",
   },
   keyFeatures: [
     {
       icon: DollarSign,
       title: "Affordable Rent",
-      value: "€450 / month",
+      value: "Rp. 450k / month",
       description: "All utilities included. No hidden fees."
     },
     {
@@ -38,7 +38,7 @@ export const data = {
     {
       icon: Home,
       title: "Rooms Available",
-      value: "2",
+      value: "6",
       description: "Ready for immediate move-in."
     }
   ],
@@ -47,22 +47,22 @@ export const data = {
     description: "High-quality images of our rooms and common areas.",
     images: [
       {
-        src: "https://placehold.co/600x400.png",
+        src: "https://unsplash.com/photos/GqbU78bdJFM/download?ixid=M3wxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNzUwODU3OTEwfA&force=true&w=640",
         alt: "Bright and airy bedroom with a desk",
         hint: "bedroom desk"
       },
       {
-        src: "https://placehold.co/600x400.png",
+        src: "https://unsplash.com/photos/zwZpdhoTbU0/download?ixid=M3wxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNzUwODU4MzQ4fA&force=true&w=640",
         alt: "Clean and modern kitchen with appliances",
         hint: "modern kitchen"
       },
       {
-        src: "https://placehold.co/600x400.png",
+        src: "https://unsplash.com/photos/oTJ92KUXHls/download?ixid=M3wxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNzUwODYwMzk0fA&force=true&w=640",
         alt: "Shared living area with comfortable seating",
         hint: "shared living"
       },
       {
-        src: "https://placehold.co/600x400.png",
+        src: "https://unsplash.com/photos/puSizVhqZYw/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8NzV8fHRvaWxldHxlbnwwfHx8fDE3NTA4NjA1NDd8MA&force=true&w=640",
         alt: "Tidy bathroom with a shower",
         hint: "clean bathroom"
       },
@@ -81,12 +81,12 @@ export const data = {
   map: {
     title: "Prime Location",
     description: "Conveniently located near essential services and transport links.",
-    address: "123 Serenity Lane, Dublin, Ireland",
-    embedUrl: "https://maps.google.com/maps?q=123%20Serenity%20Lane,%20Dublin,%20Ireland&t=&z=15&ie=UTF8&iwloc=&output=embed",
+    address: "Jl. Halu, Indramayu, Jawa Barat",
+    embedUrl: "https://maps.google.com/maps?q=Indramayu,%20West%20Java&t=&z=15&ie=UTF8&iwloc=&output=embed",
     locations: [
-      { name: "Train Stop", distance: "5 min walk" },
-      { name: "Supermarket", distance: "7 min walk" },
-      { name: "City Center", distance: "15 min train" },
+      { name: "Train Stop", distance: "5 min bike" },
+      { name: "Supermarket", distance: "5 min walk" },
+      { name: "City Center", distance: "90 min train" },
     ]
   },
   contact: {
@@ -106,7 +106,7 @@ export const data = {
     },
     form: {
         nameLabel: "Your Name",
-        namePlaceholder: "Jane Doe",
+        namePlaceholder: "Bambang",
         emailLabel: "Your Email (Optional)",
         emailPlaceholder: "jane.doe@example.com",
         messageLabel: "Message",
