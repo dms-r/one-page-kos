@@ -4,6 +4,7 @@ import { Toaster } from "@/components/ui/toaster"
 import { data } from '@/lib/data';
 
 export const metadata: Metadata = {
+  metadataBase: new URL(data.siteUrl),
   title: data.metadata.title,
   description: data.metadata.description,
   keywords: data.metadata.keywords,

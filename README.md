@@ -1,5 +1,2 @@
-# Firebase Studio
-
-This is a NextJS starter in Firebase Studio.
-
-To get started, take a look at src/app/page.tsx.
+# Logdify
+Sebuah website one page yang membantu mengenalkan kos-kosan lebih jauh.

@@ -2,6 +2,7 @@ import { DollarSign, Home, Maximize, ParkingCircle, Utensils, WashingMachine, Wi
 
 export const data = {
   appName: "Lodgify",
+  siteUrl: "https://lodgify.example.com",
   metadata: {
     title: "Lodgify Landing | Cozy & Convenient Boarding House",
     description: "Clean, affordable rooms for rent with great amenities. Close to public transport and city center. Inquire today!",
